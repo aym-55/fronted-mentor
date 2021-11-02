@@ -1,0 +1,106 @@
+body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: hsl(225, 100%, 94%);
+    padding: 50px;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 450px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 8px 8px 12px #555;
+}
+
+button {
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    height: 50px;
+    width: 330px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: 8px 8px 12px #555;
+}
+
+button:active {
+    background-color: hsl(224, 23%, 55%);
+}
+
+h2 {
+    font-family: Verdana;
+    color: hsl(223, 47%, 23%);
+}
+
+h4 {
+    font-family: Verdana;
+    color: hsl(223, 47%, 23%);
+}
+ 
+p {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-family: Verdana;
+}
+
+.price{
+    background-color: hsl(225, 100%, 98%);
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 15px;
+    padding: 20px;
+    height: 50px;
+}
+
+.image {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-radius: 15px 15px 0 0;
+}
+
+.center{
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    border-radius: 5%;
+}
+
+#annual {
+    position: relative; bottom: 70px; left: 60px;
+}
+
+#prix {
+    position: relative; bottom: 85px; left: 60px;
+}
+
+#change {
+    position: relative; bottom: 138px; left: 230px;
+}
+
+#change:active {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+#cancel {
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 35px;
+}
+
+#cancel:active {
+    color: hsl(223, 47%, 23%);
+}
